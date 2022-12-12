@@ -1,0 +1,23 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper-content {
+    max-width: 39rem;
+    text-align: center;
+}
+
+.wrapper-content img {
+   max-width:100%;
+   height:auto;
+}
+
+
+
+@media screen and (max-width: 700px) {
+  
+    body{
+        text-align: center;
+    }
+}

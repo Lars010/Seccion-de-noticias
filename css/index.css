@@ -1,0 +1,73 @@
+@import './carousel.css';
+@import './button.css';
+
+
+:root {
+  --bg: #242629;
+  --grey-ligth: #cfd6e3;
+  --grey-dark: #303c51;
+  --white: #ffffff;
+  --neutral: #62728f;
+  --green: #196046;
+  --yellow: #ffe084;
+  --h1: 700 3.125rem/normal Inter;
+  --h2: 700 2.5rem/normal Inter;
+  --h3: 600 1.375rem/2.5rem Inter;
+  --body1-regular: 400 1.125rem/1.75rem Inter;
+  --body1-bold: 700 1.125rem/normal Inter;
+  --body1-regular: 400 0.875rem/1.75rem Inter;
+}
+
+body {
+  font: var(--body1-regular);
+}
+
+.primer-row {
+  display: flex;
+}
+
+.segundo-row {
+  display: flex;
+}
+
+.cabecera {
+  max-width: 32rem;
+  block-size: 21rem;
+  margin-block-start: 5rem;
+  margin-inline-start: 5rem;
+  margin-inline-end: 6rem;
+}
+
+.cabecera h1 {
+  margin-block-start: 2rem;
+}
+
+.cabecera p {
+  margin-block-start: 1.5rem;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+  .wrapper-videos {
+    max-inline-size: 22.5rem;
+    max-width: 100%;
+  }
+
+  .primer-row {
+    display: block;
+    border: 1px solid red;
+    max-width: 100%;
+  }
+
+  .segundo-row {
+    display: block;
+    max-width: 100%;
+  } 
+
+  .container-1 {
+    margin-block-start: 7rem;
+  }
+
+}

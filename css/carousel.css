@@ -1,0 +1,71 @@
+.container-1 {
+    max-width: 45.8rem;
+    block-size: 25rem;
+    margin-inline-start: 2rem;
+    margin-block-start: 5rem;
+}
+
+.carousel-caption p {
+    font: var(--body1-regular);
+}
+
+.more-info {
+    text-align: left;
+}
+
+.contenido {
+    /* border: 2px solid yellow; */
+    text-align: left;
+    margin-inline-start: -3rem;
+}
+
+.more-info a {
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    margin-inline-start: -3rem;
+}
+
+.more-info a:hover {
+    color: whitesmoke;
+}
+
+.container-2 {
+    max-width: 42.8rem;
+    block-size: 25rem;
+    margin-inline-start: 5rem;
+    margin-block-start: 2rem;
+    margin-block-end: 2rem;
+}
+
+.container-3 {
+    max-width: 38rem;
+    height: 25rem;
+    /* border: 2px solid red; */
+    margin-inline-start: 2rem;
+    margin-block-start: 2rem;   
+}
+
+@media only screen and (max-width: 600px) {
+
+    .wrapper-videos {
+      max-inline-size: 22.5rem;
+      max-width: 100%;
+    }
+  
+    .primer-row {
+      display: block;
+      border: 1px solid red;
+      max-width: 100%;
+    }
+  
+    .segundo-row {
+      display: block;
+      max-width: 100%;
+    } 
+  
+    .container-1 {
+      margin-block-start: 7rem;
+    }
+  
+  }
